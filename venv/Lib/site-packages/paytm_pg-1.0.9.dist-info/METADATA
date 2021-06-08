@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: paytm-pg
+Version: 1.0.9
+Summary: Merchant util library which provide payment, payment status, refund and refund status
+Home-page: https://github.com/paytm/paytm-pg-python-sdk
+Author: Avneesh Gupta
+Author-email: pgplus.tyche@paytm.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+Requires-Dist: pycryptodome
+
+Python sdk 
+
+
