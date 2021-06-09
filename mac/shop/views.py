@@ -88,6 +88,7 @@ def productView(request, myid):
 
 
 def checkout(request):
+    thank = False
     if request.method=="POST":
         items_json = request.POST.get('itemsJson', '')
         name = request.POST.get('name', '')
@@ -104,5 +105,5 @@ def checkout(request):
         update = OrderUpdate(order_id=order.order_id, update_desc="The order has been placed")
         update.save()
         thank = True
-    return render(request, 'shop/checkout.html')
+    return render(request, 'shop/checkout.html', {'thank': thank})
 
